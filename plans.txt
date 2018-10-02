@@ -1,0 +1,17 @@
+Pomocnik nauki słówek języka obcego
+
+Użytkownik 
+tyb administracji
+-rejestruje swoje konto (imię, nazwisko, login, hasło, e-mail)
+-wprowadza nowe słówka, ich tłumaczenie oraz przykładowe zdanie(lub kilka zdań) zawierających dane słówko
+ (można dodać plik dźwiękowy z prawidłową wymową danego słówka)
+-ustala tryb uczenia(limit dzienny powtarzanych słówek)
+
+system
+-mierzy czas sesji
+-losuje zadaną (limit dzienny na jedną sesję) liczbę słówek 
+-słówka błędnie przetłumaczone oznaczane są wyższym priorytetem
+-program losuje 70% z ogólnej liczby słówek oraz 30% słówek błędnych
+-po 3 krotnym prawidłowym tłumaczeniu błędnego słowa wraca ono do ogólnej puli
+
+ 
